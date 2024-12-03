@@ -17,7 +17,7 @@ https://pro.arcgis.com/en/pro-app/latest/tool-reference/data-management/analyze-
 2. Path the workspace variable to your ESRI geodatabase .SDE file.
 3. Run script.
 
-The script will close all connections to the databases and disconect active users before performing maintenance. It enables connections once maintenance is complete. 
+The script will close all connections to the databases and disconnect active users before performing maintenance. It enables connections once maintenance is complete. 
 
 The user who is connected through the .SDE file needs to be the schema owner of the data that is being maintained in the database.
 
