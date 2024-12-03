@@ -11,8 +11,8 @@ This Python script runs the ESRI recommended database maintenance processes for 
 It is suggested to run this workflow once a week or after substantial edits.
 
 ## Usage
-1. Download the Python to a system with an ESRI Python Interpreter installed.
-2. Path the workspace variable to your ESRI geodatabase .SDE file.
+1. Download ESRImaintenanceEGDB.py to a system with an ESRI Python Interpreter installed.
+2. Path the workspace variable to your ESRI geodatabase (.SDE file).
 3. Run script.
 
 The script will close all connections to the databases and disconnect active users before performing maintenance. It enables connections once maintenance is complete. 
