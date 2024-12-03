@@ -4,13 +4,9 @@
 ## General Workflow
 This Python script runs the ESRI recommended database maintenance processes for geodatabases. Use for ensuring enterprise geodatabases remain performant after edits and updates.
 
-- Compress the Enterprise Geodatabase to improve performance. 
-- Rebuild Indexes on the Enterprise Geodatabase Tables to defragment them.
-- Analyze Datasets and update statistics of tables and the indexes that are associated with them.
-
-[Compress Geodatabase](https://pro.arcgis.com/en/pro-app/latest/tool-reference/data-management/compress.htm)
-[Rebuild Indexes](https://pro.arcgis.com/en/pro-app/latest/tool-reference/data-management/rebuild-indexes.htm)
-[Analyze Datasets](https://pro.arcgis.com/en/pro-app/latest/tool-reference/data-management/analyze-datasets.htm)
+- [Compress Geodatabase](https://pro.arcgis.com/en/pro-app/latest/tool-reference/data-management/compress.htm) to improve performance. 
+- [Rebuild Indexes](https://pro.arcgis.com/en/pro-app/latest/tool-reference/data-management/rebuild-indexes.htm) on the Enterprise Geodatabase Tables to defragment them.
+- [Analyze Datasets](https://pro.arcgis.com/en/pro-app/latest/tool-reference/data-management/analyze-datasets.htm) and update statistics of tables and the indexes that are associated with them.
 
 ## Usage
 1. Download the Python to a system with an ESRI Python Interpreter installed.
