@@ -15,11 +15,11 @@ It is suggested to run this workflow once a week or after substantial edits.
 2. Path the workspace variable to your ESRI geodatabase (.SDE file).
 3. Run script.
 
-The script will close all connections to the databases and disconnect active users before performing maintenance. It enables connections once maintenance is complete. 
-
 The user who is connected through the .SDE file needs to be the schema owner of the data that is being maintained in the database.
 
 Database Administrator permissions are required for the script to work on System tables.
+
+The script will close all connections to the databases and disconnect active users before performing maintenance. It enables connections once maintenance is complete. 
 
 A log file will be saved to the directory that the script is executed from.
 
