@@ -8,6 +8,8 @@ This Python script runs the ESRI recommended database maintenance processes for 
 - [Rebuild Indexes](https://pro.arcgis.com/en/pro-app/latest/tool-reference/data-management/rebuild-indexes.htm) on the Enterprise Geodatabase Tables to defragment them.
 - [Analyze Datasets](https://pro.arcgis.com/en/pro-app/latest/tool-reference/data-management/analyze-datasets.htm) and update statistics of tables and the indexes that are associated with them.
 
+It is suggested to run this workflow once a week or after substantial edits.
+
 ## Usage
 1. Download the Python to a system with an ESRI Python Interpreter installed.
 2. Path the workspace variable to your ESRI geodatabase .SDE file.
