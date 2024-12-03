@@ -26,8 +26,8 @@ import sys
 from datetime import datetime
 
 # set workspace path to the GDB .sde connection file
-#workspace = arcpy.GetParameterAsText(0)
 #workspace = r"\\path\to\geodatabase.sde"
+workspace = r"\\path\to\geodatabase.sde"
 
 # set workspace environment
 arcpy.env.workspace = workspace
