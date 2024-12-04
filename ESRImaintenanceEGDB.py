@@ -33,7 +33,6 @@ workspace = r"\\path\to\geodatabase.sde"
 arcpy.env.workspace = workspace
 
 #See output in Shell and send to a log file.
-#filename = "\DB_Maintenance_log.txt"
 filename = "\DB_Maintenance_log" + datetime.now().strftime("%Y%m%d-%H%M%S") + ".txt"
 output = str(os.path.dirname(os.path.abspath(__file__))) + filename
 class Logger(object):
@@ -158,6 +157,3 @@ finally:
     print("")
     print("*** pau **********")
     print("")
-    # print("Press Enter to Continue")
-    # raw_input()
-
